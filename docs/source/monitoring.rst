@@ -16,5 +16,5 @@ Jobs can be cancelled using
 .. code-block:: console
 		$ qdel <job_id>
 
-For further information on the ARC4 docs, see `Monitoring jobs on ARC4 <https://arcdocs.leeds.ac.uk/usage/batchjob.html#monitoring-jobs>'_
+For further information on the ARC4 docs, see `Monitoring jobs on ARC4 <https://arcdocs.leeds.ac.uk/usage/batchjob.html#monitoring-jobs>`_
 

@@ -1,7 +1,7 @@
 Submitting a job
 ===================================
 
-To use ARC4 compute nodes, you can submit a job to the queue through a batch scheduler. It requires you to request the number of cores (or nodes), memory and time needed and pointing to the program you wish to run. The batch scheduler takes your resources into account and allocates your job a place in the queue. More information on writing job submission scripts (job scripts) can be found here: `ARC4 job scripts <https://arcdocs.leeds.ac.uk/usage/batchjob.html#job-scripts>'_
+To use ARC4 compute nodes, you can submit a job to the queue through a batch scheduler. It requires you to request the number of cores (or nodes), memory and time needed and pointing to the program you wish to run. The batch scheduler takes your resources into account and allocates your job a place in the queue. More information on writing job submission scripts (job scripts) can be found here: `ARC4 job scripts <https://arcdocs.leeds.ac.uk/usage/batchjob.html#job-scripts>`_
 
 For CESM2, the CIME framework has been configured for ARC4 so that you can use the package functions to submit jobs. Before you do so, you can preview commands that will be run at submission time using 
 
@@ -22,6 +22,7 @@ The default queue is 40core-192G, which has 5960 cores available for use (ARC4 h
    This will change the JOB_QUEUE for the short term archive job as well (st_archive). If you only want to change the queue of your main job, you can add the --subgroup case.run
    .. code-block:: console
    $ ./xmlchange JOB_QUEUE=<name_of_queue> --subgroup case.run
+
 
 The case can then be run on that queue using the submit command, as before
 
