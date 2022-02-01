@@ -15,11 +15,11 @@ Contents
 .. toctree::
 
    start_arc4
-   First time usage
-   Preparing a case
-   Making changes to a case
-   Submitting a job
-   Monitoring jobs
-   Troubleshooting
-   Helpful links
+   first_time
+   prepare_case
+   making_changes
+   job_submit
+   monitoring
+   troubleshooting
+   links
    
