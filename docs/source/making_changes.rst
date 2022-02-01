@@ -6,11 +6,13 @@ At this point, you can make any changes to your case setup, such as changing the
 You can query settings using the function
 
 .. code-block:: console
+		
 		$ ./xmlquery <name_of_setting>
 
-Adding ``-p'' as a flag allows you to look up partial names, e.g.
+Adding ``-p`` as a flag allows you to look up partial names, e.g.
 
 .. code-block:: console
+		
 		$ ./xmlquery -p JOB
 
 		Output:
@@ -25,11 +27,13 @@ Adding ``-p'' as a flag allows you to look up partial names, e.g.
 When you know which setting you want to change, you can do so using 
 
 .. code-block:: console
+		
 		$ ./xmlchange <name_of_setting>=<new_value>
 
 For example to change the wallclock time to 30 minutes, without knowing the exact name, you could do
 
 .. code-block:: console
+		
 		$ ./xmlquery -p WALLCLOCK
 
 		Output:
@@ -40,7 +44,9 @@ For example to change the wallclock time to 30 minutes, without knowing the exac
                         JOB_WALLCLOCK_TIME: 0:20:00
 		
 .. code-block:: console
+		
 		$ ./xmlchange JOB_WALLCLOCK_TIME=00:30:00 --subgroup case.run
 
 .. note::
-   The flag ``--subgroup case.run'' is used to change only the main job wallclock without affecting the st_archive wallclock. 
+   
+   The flag ``--subgroup case.run`` is used to change only the main job wallclock without affecting the st_archive wallclock. 
