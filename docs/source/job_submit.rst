@@ -9,7 +9,7 @@ For CESM2, the CIME framework has been configured for ARC4 so that you can use t
 		
 		$ ./preview_run
 
-Submit the job using 
+You can submit the job using 
 
 .. code-block:: console
 		
@@ -23,10 +23,7 @@ The default queue is 40core-192G, which has 5960 cores available for use (ARC4 h
 
 .. note::
 
-   This will change the JOB_QUEUE for the short term archive job as well (st_archive). If you only want to change the queue of your main job, you can add the --subgroup case.run
-   .. code-block:: console
-		   
-   $ ./xmlchange JOB_QUEUE=<name_of_queue> --subgroup case.run
+   This will change the JOB_QUEUE for the short term archive job as well (st_archive). If you only want to change the queue of your main job, you can add the --subgroup case.run flag as in :doc:`making_changes`.
 
 
 The case can then be run on that queue using the submit command, as before

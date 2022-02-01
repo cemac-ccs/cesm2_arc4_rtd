@@ -43,10 +43,18 @@ For example to change the wallclock time to 30 minutes, without knowing the exac
 		Results in group case.st_archive
                         JOB_WALLCLOCK_TIME: 0:20:00
 		
-.. code-block:: console
-		
 		$ ./xmlchange JOB_WALLCLOCK_TIME=00:30:00 --subgroup case.run
 
+		$ ./xmlquery JOB_WALLCLOCK_TIME
+
+		Output:
+		Results in group case.run
+		        JOB_WALLCLOCK_TIME: 00:30:00
+
+		Results in group case.st_archive
+                        JOB_WALLCLOCK_TIME: 0:20:00
+
+			
 .. note::
    
    The flag ``--subgroup case.run`` is used to change only the main job wallclock without affecting the st_archive wallclock. 
