@@ -1,12 +1,5 @@
 Preparing a case
-===================================
-
-Every time you log off ARC4, the module environment is reset, so you will need to begin each session with
-
-.. code-block:: console
-		
-	$ module use /nobackup/CESM/module_env
-	$ module load cesm
+================
 
 Change directory to your ``cesm_prep`` directory and use the ``create_newcase`` script, located in the central installation to create your case,
 
@@ -28,4 +21,4 @@ Run setup and build
 		$ ./case.setup
 		$ ./case.build
 
-Next, the input data files may need to be downloaded. The model is configured to look for the input data in a central directory ``/nobackup/CESM/inputdata`` so that all users can share downloaded files. This is currently read only to all users except CEMAC staff. Please contact CEMAC (cemac@leeds.ac.uk) if you need to download input data, and include the compset and resolution configuration that you want. 
+The model is configured to look for the input data in a central directory ``/nobackup/CESM/inputdata`` so that all users can share downloaded files. This is currently read only to all users except CEMAC staff. If you find your case is missing files, please contact CEMAC (cemac-support@leeds.ac.uk) and include the compset and resolution configuration that you want. 

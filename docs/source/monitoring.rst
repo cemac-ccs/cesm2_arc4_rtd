@@ -1,5 +1,5 @@
 Monitoring jobs
-===================================
+===============
 
 You can check the status of all your jobs using the command
 

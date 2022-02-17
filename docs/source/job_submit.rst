@@ -1,5 +1,5 @@
 Submitting a job
-===================================
+================
 
 To use ARC4 compute nodes, you can submit a job to the queue through a batch scheduler. It requires you to request the number of cores (or nodes), memory and time needed and pointing to the program you wish to run. The batch scheduler takes your resources into account and allocates your job a place in the queue. More information on writing job submission scripts (job scripts) can be found here: `ARC4 job scripts <https://arcdocs.leeds.ac.uk/usage/batchjob.html#job-scripts>`_.
 
