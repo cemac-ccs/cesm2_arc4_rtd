@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'CESM2 on ARC4'
-copyright = '2021, Graziella'
-author = 'Graziella'
+#copyright = '2021, CEMAC'
+#author = ''
 
-release = '0.1'
-version = '0.1.0'
+#release = '0.1'
+#version = '0.1.0'
 
 # -- General configuration
 

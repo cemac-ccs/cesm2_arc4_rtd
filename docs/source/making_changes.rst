@@ -57,4 +57,9 @@ For example to change the wallclock time to 30 minutes, without knowing the exac
 			
 .. note::
    
-   The flag ``--subgroup case.run`` is used to change only the main job wallclock without affecting the st_archive wallclock. 
+   The flag ``--subgroup case.run`` is used to change only the main job wallclock without affecting the st_archive wallclock.
+
+
+.. note::
+
+   If you try to set a parameter equal to a value that is not known to the program, it might suggest using a ``--force`` flag. This may be useful, for example, in the case of using a queue that has not been configured yet, but use with care! 
