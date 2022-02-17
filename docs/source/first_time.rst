@@ -3,7 +3,7 @@ First time usage
 
 The home directory for CESM2 code is located at ``/nobackup/CESM`` on ARC4, where you can find the ported versions (currently 2.1.3), module environments and input data directories. The ported versions are configured to run on ARC4, with the correct batch and compiler information, and these are the versions available for use. You do not need to download your own copy of the model code unless you want to use a different version, or make changes to the code. There are a few things you need to do to prepare your account for using these versions.
 
-To use the case scripts, such as create_newcase, you will need to be added to the UNIX group arc-cesm2, which will give you the correct group permissions. Please :ref:`contact`.
+To use the case scripts, such as create_newcase, you will need to be added to the UNIX group arc-cesm2, which will give you the correct group permissions. Please :ref:`Contact CEMAC`.
 
 Make a directory in your $HOME directory to store case setups. 
 
