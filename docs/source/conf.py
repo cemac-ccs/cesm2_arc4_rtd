@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'CESM2 on ARC4'
 copyright = '2021, Graziella'
 author = 'Graziella'
 

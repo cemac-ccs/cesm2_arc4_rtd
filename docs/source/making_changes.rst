@@ -1,7 +1,7 @@
 Making changes to a case
 ===================================
 
-At this point, you can make any changes to your case setup, such as changing the wallclock time, number of cores etc. ARC4 has a maximum job time limit of 24 hours and has 40 cores per node. 
+After creating a new case, the CIME functions can be used to make changes to the case setup, such as changing the wallclock time, number of cores etc. ARC4 has a maximum job time limit of 24 hours and has 40 cores per node. 
 
 You can query settings using the function
 
