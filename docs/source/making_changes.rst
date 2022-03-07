@@ -62,4 +62,13 @@ For example to change the wallclock time to 30 minutes, without knowing the exac
 
 .. note::
 
-   If you try to set a parameter equal to a value that is not known to the program, it might suggest using a ``--force`` flag. This may be useful, for example, in the case of using a queue that has not been configured yet, but use with care! 
+   If you try to set a parameter equal to a value that is not known to the program, it might suggest using a ``--force`` flag. This may be useful, for example, in the case of using a queue that has not been configured yet, but use with care!
+
+
+Some changes to the case must be done before calling ``./case.setup`` or ``./case.build``, otherwise the case will need to be reset or cleaned, using ``./case.setup --reset`` and ``./case.build --clean-all``. These are as follows.
+
+* Before calling ``./case.setup``, changes to ``NTASKS``, ``NTHRDS``, ``ROOTPE``, ``PSTRID`` and ``NINST`` must be made, as well as any changes to the ``env_mach_specific.xml`` file, which contains some configuration for the module environment and environment variables. 
+   
+* Before calling ``./case.build``, ``./case.setup`` must have been called and any changes to ``env_build.xml`` and ``Macros.make`` must have been made. This includes whether you have edited the file directly, or used ``./xmlchange`` to alter the variables.
+
+Many of the namelist variables can be changed just before calling ``./case.submit``.
