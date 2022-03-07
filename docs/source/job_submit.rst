@@ -30,4 +30,4 @@ The default queue is 40core-192G, which has 5960 cores available for use (ARC4 h
 
    If you try to set a queue name that is not known, you will need to use the ``--force`` flag.
 
-You can check the qsub command again using ``./preview_run`` and the case can then be run using the submit command, as before with ``$ ./case.submit``.
+You can check the qsub command again using ``./preview_run`` and the case can then be run using the submit command, as before with ``./case.submit``.
